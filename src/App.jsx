@@ -4,6 +4,7 @@ import { Data } from "./Data.js";
 import Card from "./Components/Card/Card.jsx";
 import Nav from "./Components/Nav/Nav.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 import "./App.css";
 export default function App() {
@@ -27,7 +28,7 @@ export default function App() {
           </form>
         </div>
 
-        <div className="cards_">
+        <div className="cards_" name="cards">
           {Data.filter((item) => {
             return search.toLowerCase() === ""
               ? item
@@ -44,6 +45,8 @@ export default function App() {
           ))}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

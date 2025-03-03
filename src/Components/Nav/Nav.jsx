@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "../../assets/images/logo.png";
 import "./Nav.css";
 
+import { Link } from "react-scroll";
+
 export default function Nav() {
   return (
     <>
@@ -14,7 +16,18 @@ export default function Nav() {
         <div className="menu">
           <ul>
             <li className="home">Home</li>
-            <li className="explore">Explore</li>
+            <li className="explore">
+              <Link
+                activeClass="active"
+                to="cards"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
+                Explore
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

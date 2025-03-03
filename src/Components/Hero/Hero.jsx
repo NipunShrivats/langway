@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Hero_img from "../../assets/images/Hero.jpg";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -15,7 +16,16 @@ export default function Hero() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             officiis
           </p>
-          <button className="explore_btn">Explore</button>
+          <Link
+            activeClass="active"
+            to="cards"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            <button className="explore_btn">Explore</button>
+          </Link>
         </div>
       </div>
     </>
