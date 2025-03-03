@@ -25,6 +25,7 @@
     border-radius: 2rem;
     cursor: pointer;
     margin-top: 1rem;
+    font-size: larger;
 }
 
 .explore_btn:hover {
