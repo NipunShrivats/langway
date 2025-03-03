@@ -31,13 +31,15 @@ export default function App() {
           {Data.filter((item) => {
             return search.toLowerCase() === ""
               ? item
-              : item.first_name.toLowerCase().includes(search);
+              : item.course_name.toLowerCase().includes(search);
           }).map((item) => (
             <Card
+              key={item.id}
               id={item.id}
-              first_name={item.first_name}
-              last_name={item.last_name}
-              phone={item.phone}
+              course_name={item.course_name}
+              subtitle={item.subtitle}
+              description={item.description}
+              image={item.image}
             />
           ))}
         </div>
