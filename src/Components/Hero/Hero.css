@@ -27,14 +27,23 @@
 
 .add-holder {
     /* border: 2px solid red; */
-    margin: 3rem 0rem 0rem 65rem;
+    margin: 5rem 0rem 0rem 65rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.add-holder span {
+    margin-left: 1rem;
+    color: grey;
+    cursor: pointer;
+}
+
 
 .add_img {
     border-radius: 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
+    /* border: 1px solid rgba(0, 0, 0, 1); */
     padding: .5rem;
-    width: 20rem;
+    width: 18rem;
 }
 
 .hero .hero_text h2 {
