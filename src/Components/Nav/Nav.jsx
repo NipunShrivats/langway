@@ -26,7 +26,7 @@ export default function Nav() {
                 to="cards"
                 spy={true}
                 smooth={true}
-                offset={-150}
+                offset={-190}
                 duration={500}
               >
                 Explore Courses

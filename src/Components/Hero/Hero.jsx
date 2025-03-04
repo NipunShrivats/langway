@@ -24,7 +24,7 @@ export default function Hero() {
             to="cards"
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-190}
             duration={500}
           >
             <button className="explore_btn">Explore Courses</button>

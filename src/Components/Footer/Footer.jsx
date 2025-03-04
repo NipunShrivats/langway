@@ -12,7 +12,7 @@ export default function Footer() {
             to="cards"
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-190}
             duration={500}
           >
             <button>Explore Courses</button>
