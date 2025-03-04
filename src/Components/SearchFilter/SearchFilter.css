@@ -1,0 +1,60 @@
+.filter {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+.filter h3 {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: -30rem;
+    margin-bottom: .2rem;
+}
+
+.filter form {
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+
+}
+
+.filter form select {
+    /* border: 2px solid red; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.filter form .select1 {
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.filter form .search_btn {
+    border-radius: 0rem 1rem 1rem 0rem;
+    height: 3.55rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: white;
+}
+
+.filter form .search_btn span {
+    /* border: 2px solid red; */
+    margin-right: .2rem;
+}
+
+.filter form .search_btn:hover {
+    background-color: rgb(235, 235, 235);
+    transition: ease-in-out .3s;
+}

@@ -6,10 +6,9 @@ import Nav from "./Components/Nav/Nav.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 
-import { LuFilter } from "react-icons/lu";
-
 import "./App.css";
 import Courses from "./Components/Courses/Courses.jsx";
+import SearchFilter from "./Components/SearchFilter/SearchFilter.jsx";
 export default function App() {
   // console.log(search);
 
@@ -20,7 +19,7 @@ export default function App() {
 
       <div className="card_holder">
         <div className="searchbar">
-          <form action="">
+          {/* <form action="">
             <span className="filter">
               <LuFilter />
             </span>
@@ -36,7 +35,8 @@ export default function App() {
                 Budget-Friendly Options
               </option>
             </select>
-          </form>
+          </form> */}
+          <SearchFilter />
         </div>
         <div className="card_class">
           <Card />
