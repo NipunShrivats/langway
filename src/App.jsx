@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer.jsx";
 import { LuFilter } from "react-icons/lu";
 
 import "./App.css";
+import Courses from "./Components/Courses/Courses.jsx";
 export default function App() {
   // console.log(search);
 
@@ -41,6 +42,7 @@ export default function App() {
           <Card />
         </div>
       </div>
+      <Courses />
       <Footer />
     </>
   );

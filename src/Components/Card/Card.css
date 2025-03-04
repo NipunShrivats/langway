@@ -64,6 +64,11 @@
     border-radius: 1rem;
 }
 
+.card-box:hover {
+    scale: 1.1;
+    transition: ease-in-out .3s;
+}
+
 .card-box .card_img {
     /* border: 2px solid red; */
     width: 12rem;
