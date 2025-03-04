@@ -13,6 +13,7 @@
 .navBar {
     /* border: 2px solid red; */
     background-color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0);
     height: 7rem;
     display: flex;
 
@@ -37,6 +38,13 @@
 .navBar .logo .logo_name {
     /* border: 2px solid green; */
     margin-top: -.5rem;
+    color: var(--theme-red);
+    color: white;
+}
+
+.navBar .logo .logo_name span {
+    margin-left: -.2rem;
+    color: red;
 }
 
 /* --------------------- */
@@ -45,7 +53,7 @@
     display: flex;
     flex-direction: row;
     /* margin-left: 65rem; */
-    padding: 0px 0% 0px 50%;
+    padding: 0px 0% 0px 40%;
     align-items: center;
     justify-content: center;
 }
@@ -61,18 +69,18 @@
     font-size: 1.2rem;
     list-style: none;
     cursor: pointer;
+    color: white;
 }
 
 .navBar .menu ul .explore {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     padding: .2rem 1rem;
     border-radius: 2rem;
-    background-color: azure;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: black;
 }
 
 .navBar .menu ul .explore:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(43, 43, 43);
     transition: ease-in-out .3s;
 }

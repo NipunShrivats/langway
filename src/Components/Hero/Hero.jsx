@@ -10,11 +10,14 @@ export default function Hero() {
         <img src={Hero_img} className="hero_img" alt="" />
 
         <div className="hero_text">
-          <h1>Learn Any Language</h1>
-          <h1>With LangWay</h1>
+          <h2>Elevate Your Language Learning Experience</h2>
+          <h2>With LangWay</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            officiis
+            Personalized language learning that adapts to your unique style,
+            ensuring an engaging and efficient educational journey. Choose from
+            a variety of languages, take our optional quizzes, and receive
+            tailored course recommendations that match your skill level,
+            learning preference, and budget.
           </p>
           <Link
             activeClass="active"
@@ -24,7 +27,7 @@ export default function Hero() {
             offset={-150}
             duration={500}
           >
-            <button className="explore_btn">Explore</button>
+            <button className="explore_btn">Explore Courses</button>
           </Link>
         </div>
       </div>

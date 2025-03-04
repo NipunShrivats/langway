@@ -15,11 +15,22 @@
 .hero .hero_text {
     /* border: 2px solid red; */
     order: 1;
+    width: 35rem;
+}
+
+.hero .hero_text h2 {
+    font-size: 1.8rem;
+}
+
+.hero .hero_text p {
+    margin-top: 1rem;
 }
 
 .explore_btn {
     /* border: 2px solid red; */
-    background-color: rgb(0, 0, 0);
+    border: none;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: var(--theme-red);
     color: white;
     padding: .5rem 1rem;
     border-radius: 2rem;
@@ -29,7 +40,6 @@
 }
 
 .explore_btn:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--theme-hover);
     transition: ease-in-out .3s;
 }

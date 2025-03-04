@@ -5,7 +5,7 @@ export const Data = [
     course_name: "Personalized Learning Styles",
     subtitle: "sub1",
     description: `Discover your unique learning preferences—whether you learn best through visuals, listening, reading/writing, or hands-on activities, we adapt our courses to fit your style.`,
-    // image: "./src/assets/images/img1.png",
+    // image: "./assets/images/img1.png",
     image: img1,
   },
   {

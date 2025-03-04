@@ -10,12 +10,16 @@ export default function Nav() {
       <div className="navBar">
         <div className="logo">
           <img src={Logo} alt="logo" className="img" />
-          <h2 className="logo_name">LangWay</h2>
+          <h2 className="logo_name">
+            Lang <span>Way</span>
+          </h2>
         </div>
 
         <div className="menu">
           <ul>
             <li className="home">Home</li>
+            <li className="about">About</li>
+            <li className="contact">Contact</li>
             <li className="explore">
               <Link
                 activeClass="active"
@@ -25,7 +29,7 @@ export default function Nav() {
                 offset={-150}
                 duration={500}
               >
-                Explore
+                Explore Courses
               </Link>
             </li>
           </ul>

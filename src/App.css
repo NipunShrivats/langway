@@ -47,6 +47,11 @@
 
 /* -------------------------- */
 
+:root {
+  --theme-red: #E15344;
+  --theme-hover: rgb(224, 9, 9);
+}
+
 .card_holder {
   /* border: 2px solid red; */
   /* background-color: rgb(235, 235, 235); */
@@ -67,12 +72,17 @@
   outline: none;
 }
 
-.searchbar form input {
+.searchbar form .filter {
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-left: -1rem;
+}
+
+.searchbar form select {
   /* border: 2px solid red; */
   padding-right: 20rem;
   border: none;
   outline: none;
-  margin-left: 0rem;
+  margin-left: 1rem;
   font-size: larger;
 }
 
