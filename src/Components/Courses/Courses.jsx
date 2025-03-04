@@ -30,7 +30,7 @@ export default function Courses() {
         </div>
         {/* course2 */}
         <div className="course">
-          <h2 className="title">Parts of Speach</h2>
+          <h2 className="title">Parts of Speech</h2>
           <div className="cousre_img">
             <img src={Second_img} alt="" />
           </div>
@@ -48,7 +48,7 @@ export default function Courses() {
         </div>
         {/* course3 */}
         <div className="course">
-          <h2 className="title">Vocbulary</h2>
+          <h2 className="title">Vocabulary</h2>
           <div className="cousre_img">
             <img src={Third_img} alt="" />
           </div>
