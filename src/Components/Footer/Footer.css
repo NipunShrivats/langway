@@ -1,7 +1,8 @@
 .footer {
     margin-top: 10rem;
     height: 5rem;
-    background-color: rgb(228, 88, 88);
+    /* background-color: rgb(228, 88, 88); */
+    background-color: rgb(255, 213, 220);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,11 +18,11 @@
 }
 
 .footer .copyright {
-    color: white;
+    /* color: white; */
     margin-top: 1rem;
 }
 
 .footer .copyright span {
-    color: black;
+    color: red;
     font-weight: bold;
 }
