@@ -30,9 +30,9 @@
 
 }
 
-.navBar .logo .img {
+.navBar .logo .logo_img {
     /* border: 2px solid red; */
-    width: 5rem;
+    width: 10rem;
 }
 
 .navBar .logo .logo_name {

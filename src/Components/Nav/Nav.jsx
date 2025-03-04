@@ -9,10 +9,10 @@ export default function Nav() {
     <>
       <div className="navBar">
         <div className="logo">
-          <img src={Logo} alt="logo" className="img" />
-          <h2 className="logo_name">
+          <img src={Logo} alt="logo" className="logo_img" />
+          {/* <h2 className="logo_name">
             Lang <span>Way</span>
-          </h2>
+          </h2> */}
         </div>
 
         <div className="menu">

@@ -2,7 +2,7 @@
     /* border: 2px solid red; */
     text-align: center;
     margin-bottom: 2rem;
-    color: red;
+    color: #E15344;
 }
 
 .course_container {
@@ -32,11 +32,7 @@
 }
 
 .course_container .course h2 {
-    color: red;
-}
-
-.course_container .course h2 span {
-    color: red;
+    color: #E15344;
 }
 
 .title {

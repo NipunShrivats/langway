@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="add-holder">
-        <span>Sponsered Advertisement*</span>
+        <span>Sponsered*</span>
         <img src={Add} className="add_img" alt="" />
       </div>
     </>
