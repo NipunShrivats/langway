@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Hero_img from "../../assets/images/Hero.jpg";
+import Add from "../../assets/images/add.jpg";
 import { Link } from "react-scroll";
 
 export default function Hero() {
@@ -17,7 +18,7 @@ export default function Hero() {
             ensuring an engaging and efficient educational journey. Choose from
             a variety of languages, take our optional quizzes, and receive
             tailored course recommendations that match your skill level,
-            learning preference, and budget.
+            learning preference, and budget.
           </p>
           <Link
             activeClass="active"
@@ -30,6 +31,9 @@ export default function Hero() {
             <button className="explore_btn">Explore Courses</button>
           </Link>
         </div>
+      </div>
+      <div className="add-holder">
+        <img src={Add} className="add_img" alt="" />
       </div>
     </>
   );

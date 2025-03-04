@@ -1,25 +1,45 @@
 .hero {
     /* border: 2px solid rgb(0, 255, 4); */
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 80vh;
+    width: 100%;
 }
 
 .hero .hero_img {
-    /* border: 2px solid red; */
-    width: 50rem;
+    position: relative;
+    width: 55rem;
     order: 2;
+    left: -40rem;
+    z-index: 2;
+    opacity: .2;
 }
 
 .hero .hero_text {
     /* border: 2px solid red; */
     order: 1;
-    width: 35rem;
+    width: 40rem;
+    z-index: 3;
+    margin-left: 5rem;
+}
+
+.add-holder {
+    /* border: 2px solid red; */
+    margin: 3rem 0rem 0rem 65rem;
+}
+
+.add_img {
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: .5rem;
+    width: 20rem;
 }
 
 .hero .hero_text h2 {
-    font-size: 1.8rem;
+    /* border: 2px solid red; */
+    font-size: 1.7rem;
 }
 
 .hero .hero_text p {
